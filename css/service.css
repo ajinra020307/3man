@@ -1,0 +1,125 @@
+body{
+	background-image: linear-gradient(to bottom right, #09203f,#537895);
+}
+.website_dev{
+
+	color: white;
+	
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.website_dev_container{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+.website_dev_container img{
+	height: 35vw;
+	width: auto;
+
+}
+.website_dev_content span{
+	font-size: 60px;
+}
+.website_dev_content p{
+	margin-top: 20px;
+	font-size: 26px;
+	line-height: 1.6;
+}
+.website_dev_content button,.webapp_dev_content button,.wordpress_dev_content button{
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: red;
+	color: white;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.webapp_dev{
+	min-height: 100vh;
+	
+	color: white;
+}
+.webapp_dev img{
+	height: 95vh;
+}
+.webapp_dev_container{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.webapp_dev_content span{
+	font-size: 60px;
+}
+.webapp_dev_content p{
+	font-size: 26px;
+	line-height: 1.6;
+	margin-top: 20px;
+}
+.webapp_dev_content{
+	margin-left: 30px;
+}
+.wordpress_dev{
+	margin: 40px 0;
+}
+.wordpress_dev_content{
+	
+	width: 90%;
+	margin: auto;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.wordpress_dev_content span{
+	font-size: 60px;
+
+}
+.wordpress_dev_content p{
+	font-size: 26px;
+	line-height: 1.6;
+	margin-top: 20px;
+	width: 80%;
+}
+.wordpress_dev_content img{
+	height: 200px;
+}
+
+.management{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	color:white;
+	margin: 80px auto;
+}
+.management_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.management_content span{
+	font-size: 60px;
+
+}
+.management_content p{
+	font-size: 26px;
+	line-height: 1.6;
+	margin-top: 20px;	
+}
+.management img{
+	height: 300px;
+}
