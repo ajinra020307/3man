@@ -1,0 +1,96 @@
+body{
+	background-image: linear-gradient(to bottom right,#17034a,#4e025a)
+}
+.pricing1_container{
+	width: 60%;
+	margin: auto;
+}
+
+.pricing1_title{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 20px;
+}
+.pricing1_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+
+.pricing1_content div{
+	
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	
+}
+
+.pricing1_content h2{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
+.starter h2{
+	background-color: #00ad9f;
+	padding: 10px 10px;
+	
+}
+.medium h2{
+	background-color:tomato;
+	padding: 10px 10px;
+	
+}
+.large h2{
+	background-color:#0051c1;
+	padding: 10px 10px;
+	
+}
+.amount{
+	color: purple;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+.pricingline{
+	
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.features{
+    width: 70%;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+	font-size: 22px;
+	line-height: 2;
+}
+.features span{
+	display: flex;
+	margin: 10px;
+}
+
+.pricing1_content svg{
+	height: 3.5vh;
+	padding: 10px;
+	border-radius: 50%;
+}
+.starter svg{
+	background-color: lightgreen;
+}
+.medium svg{
+	background-color: tomato;
+}
+.large svg{
+	background-color: #0051c1;
+}
+.gold{
+	
+	font-weight: bold;
+	
+}

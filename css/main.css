@@ -1,15 +1,25 @@
 
 
-/*Combined*/
-.btn{
-    min-width: 120px;
-	min-height: 35px;
-	background-color: tomato;
-	border:none;
+.topbtn,.planbtn{
+	width: 120px;
+	height: 40px;
+	background-color: #f50057;
+	border-radius: 20px;
+	border: none;
+	color: white;
+	font-size: 18px;
+}
+.designbtn,.pribtn,.animationbtn{
+	width: 150px;
+	height: 40px;
+	background-color: #f50057;
 	border-radius: 20px;
 	color: white;
-	font-size: 17px;
+	border: none;
+	font-size: 18px;
+
 }
+
 /*header*/
 header{
 	min-height: 100vh;
@@ -113,7 +123,7 @@ header{
 
 	position: absolute;
 	top: 0;
-	z-index: -200;
+	
 	
 }
 .animation_content span{
