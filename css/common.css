@@ -151,3 +151,19 @@ footer{
 	}
 	
 }
+@media (max-width: 450px){
+	.web_title img{
+		height: 50px;
+	}
+	.web_title span{
+	 font-size: 24px
+	}
+	#web_title_line{
+	font-size: 10px;
+   }
+   .hamburger{
+	
+		top: 10px;
+		right: 5vw;
+	}
+}
