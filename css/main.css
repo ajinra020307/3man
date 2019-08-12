@@ -188,11 +188,13 @@ canvas{
 
 @media (max-width: 430px){
    .header_slogan{
-	 font-size: 10vw;
+	 font-size: 11vw;
 	 font-weight: bold;
    }
    .header_content_left{
 	width: 100%;
-	
+   }
+   header{
+   	background-position: -500px;
    }
 }
