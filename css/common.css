@@ -160,11 +160,11 @@ footer{
 		height: 50px;
 	}
     .top_navigation_container{
-    	min-height: 10vh;
+    	min-height: 8vh;
     }
    .hamburger{
-		top: 10px;
-		right: 5vw;
+		top: 5px;
+		right: 2.5vw;
 	}
 	.web_title span{
 	font-size: 25px;
