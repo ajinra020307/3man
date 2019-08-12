@@ -152,14 +152,22 @@ footer{
 	
 }
 @media (max-width: 450px){
+	.container{
+	  width: 95%; 
+	  grid-template-columns: 65%,30%;
+	}
 	.web_title img{
 		height: 50px;
 	}
     .top_navigation_container{
-   	min-height: 10vh;
+    	min-height: 10vh;
     }
    .hamburger{
 		top: 10px;
 		right: 5vw;
 	}
+	.web_title span{
+	font-size: 25px;
+	font-family: "Pacifico";
+}
 }
