@@ -3,7 +3,7 @@ var w = window.innerWidth,
     canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d'),
     rate = 60,
-    arc = 150,
+    arc = 100,
     time,
     count,
     size = 12,
@@ -35,6 +35,7 @@ function create() {
 function particles() {
   ctx.clearRect(0,0,w,h);
    canvas.addEventListener('mousemove', MouseMove, false);
+
   for(var i = 0; i < arc; i++) {
     var li = parts[i];
     var distanceFactor = DistanceBetween( mouse, parts[i] );

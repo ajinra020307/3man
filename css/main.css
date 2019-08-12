@@ -23,6 +23,7 @@
 /*header*/
 header{
 	min-height: 100vh;
+	width: 100vw;
 	background-image: url(../img/cover6.jpg);
 	background-attachment: fixed;
 	background-size: cover;
@@ -124,9 +125,8 @@ header{
 	position: absolute;
 	top: 0;
 	
-	
 }
-.animation_content span{
+ .animation_content span{
 	font-size: 100px;
 
 }
