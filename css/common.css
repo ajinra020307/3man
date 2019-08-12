@@ -161,8 +161,10 @@ footer{
 	#web_title_line{
 	font-size: 10px;
    }
+   .top_navigation_container{
+   	min-height: 7vw;
+   }
    .hamburger{
-	
 		top: 10px;
 		right: 5vw;
 	}
