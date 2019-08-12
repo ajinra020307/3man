@@ -195,6 +195,7 @@ canvas{
    	height: 100vh;
    	background-position: -500px;
    	background-attachment: all;
+   	background-size: cover;
    }
    .https_container{
    	flex-direction: column;
