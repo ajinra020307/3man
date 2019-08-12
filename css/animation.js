@@ -2,7 +2,7 @@ var w = window.innerWidth,
     h = window.innerHeight,
     canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d'),
-    rate = 20,
+    rate = 60,
     arc = 100,
     time,
     count,
@@ -70,7 +70,7 @@ function particles() {
   if(time < speed) {
     time++;
   }
-  setTimeout(particles,1000/rate);
+  
 }
 function MouseMove(e) {
    mouse.x = e.layerX;

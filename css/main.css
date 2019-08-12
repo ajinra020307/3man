@@ -192,6 +192,7 @@ canvas{
 	width: 100%;
    }
    header{
+   	height: 100vh;
    	background-position: -500px;
    	background-attachment: scroll;
    }
