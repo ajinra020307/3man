@@ -33,9 +33,7 @@ header{
 }
 .header_content{
 	margin-top: 20px;
-	display: flex;
-	
-	
+	display: flex;		
 }
 .header_content_left{
 	
@@ -186,3 +184,15 @@ canvas{
 	font-size: 5vw;
 }
 
+/*Mobile media*/
+
+@media (max-width: 430px){
+   .header_slogan{
+	 font-size: 10vw;
+	 font-weight: bold;
+   }
+   .header_content_left{
+	width: 100%;
+	
+   }
+}
