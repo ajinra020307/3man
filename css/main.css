@@ -217,4 +217,11 @@ canvas{
   .https_container p,.responsive_container p{
     font-size: 18px;
   }
+  .animation_content span{
+	font-size: 50px;
+
+  }
+  .animation p{
+	font-size: 20px;
+  }
 }
