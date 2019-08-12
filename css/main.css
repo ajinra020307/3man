@@ -183,7 +183,7 @@ canvas{
 
 /*Mobile media*/
 
-@media (max-width: 430px) and (orientation:landscape) and (orientation:portrait){
+@media (max-width: 430px){
    .header_slogan{
 	 font-size: 11vw;
 	 font-weight: bold;
