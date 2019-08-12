@@ -224,4 +224,7 @@ canvas{
   .animation p{
 	font-size: 20px;
   }
+  .designbtn,.planbtn,.animationbtn{
+  	margin-top: 20px;
+  }
 }
