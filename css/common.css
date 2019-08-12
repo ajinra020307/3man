@@ -155,15 +155,9 @@ footer{
 	.web_title img{
 		height: 50px;
 	}
-	.web_title span{
-	 font-size: 24px
-	}
-	#web_title_line{
-	font-size: 10px;
-   }
-   .top_navigation_container{
-   	min-height: 7vw;
-   }
+    .top_navigation_container{
+   	min-height: 10vw;
+    }
    .hamburger{
 		top: 10px;
 		right: 5vw;
