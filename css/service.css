@@ -175,4 +175,8 @@ body{
 	margin: auto;
 	
 }
+.management img{
+	height:auto;
+	width: 90vw;
+}
 }
