@@ -123,3 +123,16 @@ body{
 .management img{
 	height: 300px;
 }
+
+@media (max-width: 400px){
+.website_dev_container{
+	width: 95%;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.website_dev_image img{
+	width: 90vw;
+	height: auto;
+}
+}
