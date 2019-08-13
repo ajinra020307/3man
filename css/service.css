@@ -135,4 +135,44 @@ body{
 	width: 90vw;
 	height: auto;
 }
+.website_dev_content span{
+	font-size: 35px;
+}
+.website_dev_content p{
+	font-size: 20px;
+	width: 95%;
+	margin:20px auto;
+}
+.webapp_dev_container{
+	width: 95%;
+	flex-direction: column;
+	padding-top: 30px;
+}
+.webapp_dev_content span{
+	font-size: 35px;
+}
+.webapp_dev_content p{
+	font-size: 20px;
+	width: 95%;
+	margin: 20px auto;
+}
+.wordpress_dev_content span{
+	font-size: 35px;
+
+}
+.wordpress_dev_content p{
+	font-size: 20px;
+	width: 95%;
+	margin: auto;
+}
+.management_content span{
+	font-size: 35px;
+
+}
+.management_content p{
+	font-size: 20px;
+	width: 95%;
+	margin: auto;
+	
+}
 }

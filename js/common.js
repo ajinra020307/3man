@@ -1,5 +1,4 @@
 //display menu
-
 document.querySelector('.hamburger').addEventListener('click', displaymenu)
 
 function displaymenu(e){
